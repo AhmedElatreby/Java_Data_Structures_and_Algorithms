@@ -18,5 +18,10 @@ class Main {
         SumOfNumbers s2 = new SumOfNumbers();
         System.out.println(s2.sumOfNumbers(222));
 
+        System.out.println("--------------------------");
+        CalculatePowerOfNumber calnum = new CalculatePowerOfNumber();
+        System.out.println(calnum.calculatePowerOfNumber(3, -10));
+
+
     }
 }
