@@ -22,6 +22,12 @@ class Main {
         CalculatePowerOfNumber calnum = new CalculatePowerOfNumber();
         System.out.println(calnum.calculatePowerOfNumber(3, -10));
 
+        System.out.println("--------------------------");
+        GreatestCommonDivisor gcd = new GreatestCommonDivisor();
+
+        System.out.println(gcd.gcd(4,8));
+
+
 
     }
 }
