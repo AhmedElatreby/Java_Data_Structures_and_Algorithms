@@ -8,8 +8,15 @@ class Main {
 
         System.out.println("--------------------------");
 
+
+
         Fibonacci fibonacci = new Fibonacci();
-        var fib = fibonacci.fibonacci(35);
-        System.out.println("fibonacci of 100 is: " + fib);
+        var fib = fibonacci.fibonacci(30);
+        System.out.println("fibonacci of 30 is: " + fib);
+
+        System.out.println("--------------------------");
+        SumOfNumbers s2 = new SumOfNumbers();
+        System.out.println(s2.sumOfNumbers(222));
+
     }
 }
