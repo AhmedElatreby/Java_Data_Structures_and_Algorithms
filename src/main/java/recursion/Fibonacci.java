@@ -1,8 +1,6 @@
 package recursion;
 
 public class Fibonacci {
-
-
     public long fibonacci(int n) {
         if (n<0) {
             return -1;
@@ -13,7 +11,6 @@ public class Fibonacci {
         return  (fibonacci(n-1) + fibonacci(n-2));
     }
 
-
-    }
+}
 
 
