@@ -46,4 +46,11 @@ for (int i = 0; i < custArray.length; i++) {
         return  (fibonacci(n-1) + fibonacci(n-2));
     }
 ```
-![img_1.png](img_1.png)
+
+<img alt="img_1.png" height="500" src="img_1.png" width="500"/>
+
+***
+
+### How to measure the codes using Big O?
+
+![img_2.png](img_2.png)
