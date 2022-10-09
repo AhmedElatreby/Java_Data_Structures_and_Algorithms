@@ -31,3 +31,20 @@ public class SingleDimensionArray {
 }
 ```
 ![img_1.png](img_1.png)
+
+***
+Traversal Array
+```java
+public void traversalArray() {
+        try{
+            for (int i = 0; i < array.length; i++) {
+                System.out.print(array[i] + " ");
+            }
+        } catch (Exception e) {
+            System.out.println("Array no longer exists!");
+        }
+
+    }
+```
+![img_2.png](img_2.png)
+***
