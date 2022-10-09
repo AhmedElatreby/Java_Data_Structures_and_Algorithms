@@ -7,11 +7,18 @@ public class Main {
         CalculateSum cal = new CalculateSum();
         int[] customArray= {1,3,4,5,};
         cal.somOfArray(customArray);
+        System.out.println();
 
         System.out.println("----------calculate the sum and product of elements of array ------- ");
         PrintPairsOfNumbers printPairs = new PrintPairsOfNumbers();
-
         printPairs.printNumbers(customArray);
+        System.out.println();
+
+        System.out.println("---------- Take array as a parameter and reverse it ------- ");
+        ReversesArray rarray = new ReversesArray();
+        rarray.reverseArray(customArray);
+
+
 
     }
 
