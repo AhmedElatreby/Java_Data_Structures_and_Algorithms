@@ -15,5 +15,11 @@ public class Main {
 
         System.out.println("Search In An array");
         sArray.searchInArray(20);
+
+        System.out.println();
+
+        System.out.println("Delete a value from the array");
+        sArray.deleteValue(1);
+        System.out.println(sArray.array[1]);
     }
 }

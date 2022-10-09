@@ -62,3 +62,15 @@ Search for an element in the given Array
 ```
 ![img_3.png](img_3.png)
 ***
+Delete value from Array
+```java
+    public void deleteValue(int valueToDeleteIndex){
+       try{
+           array[valueToDeleteIndex] = Integer.MIN_VALUE;
+           System.out.println("The value has been deleted successfully");
+       } catch (ArrayIndexOutOfBoundsException e){
+           System.out.println("The value that is provided is not in the range of array");
+       }
+    }
+```
+![img_4.png](img_4.png)

@@ -26,7 +26,7 @@ public class SingleDimensionArray {
     // Array Traversal
 
     public void traversalArray() {
-        try{
+        try {
             for (int i = 0; i < array.length; i++) {
                 System.out.print(array[i] + " ");
             }
@@ -37,7 +37,7 @@ public class SingleDimensionArray {
     }
 
     // Search for an element in the given Array
-    public void searchInArray(int valueToSearch){
+    public void searchInArray(int valueToSearch) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == valueToSearch) {
                 System.out.println("Value is found at the index of " + i);
@@ -45,5 +45,15 @@ public class SingleDimensionArray {
             }
         }
         System.out.println(valueToSearch + " is not found!");
+    }
+
+    // Delete value from Array
+    public void deleteValue(int valueToDeleteIndex){
+       try{
+           array[valueToDeleteIndex] = Integer.MIN_VALUE;
+           System.out.println("The value has been deleted successfully");
+       } catch (ArrayIndexOutOfBoundsException e){
+           System.out.println("The value that is provided is not in the range of array");
+       }
     }
 }
