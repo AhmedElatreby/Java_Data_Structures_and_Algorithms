@@ -11,5 +11,9 @@ public class Main {
 
         System.out.println("Array Traversal");
         sArray.traversalArray();
+        System.out.println();
+
+        System.out.println("Search In An array");
+        sArray.searchInArray(20);
     }
 }

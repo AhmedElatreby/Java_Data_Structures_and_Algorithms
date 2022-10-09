@@ -48,3 +48,17 @@ public void traversalArray() {
 ```
 ![img_2.png](img_2.png)
 ***
+Search for an element in the given Array
+```java
+ public void searchInArray(int valueToSearch){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == valueToSearch) {
+                System.out.println("Value is found at the index of " + i);
+                return;
+            }
+        }
+        System.out.println(valueToSearch + " is not found!");
+    }
+```
+![img_3.png](img_3.png)
+***
