@@ -1,4 +1,5 @@
 package Arrays;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,5 +22,24 @@ public class Main {
         System.out.println("Delete a value from the array");
         sArray.deleteValue(1);
         System.out.println(sArray.array[1]);
+
+        System.out.println();
+
+        // Two Dimensional Array
+        System.out.println("Two Dimensional array");
+        int [][] int2DArray;  // declare array
+        int2DArray = new int[2][2]; // instantiate array
+        // Initialise Array
+        int2DArray[0][0] = 1;
+        int2DArray[0][1] = 2;
+        int2DArray[1][0] = 3;
+        int2DArray[1][1] = 4;
+
+        System.out.println(Arrays.deepToString(int2DArray));
+        // All together
+        String s2DArray[][] = {{"a","b", "c","d"}};
+        System.out.println(Arrays.deepToString(s2DArray));
+
+
     }
 }
