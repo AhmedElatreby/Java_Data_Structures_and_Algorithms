@@ -37,5 +37,6 @@ public class Main {
         twoDA.accessCell(0,1);
         System.out.println("Traverse Two Dimensional array");
         twoDA.travers2DArray();
+        twoDA.search2DArray(10);
     }
 }

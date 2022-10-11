@@ -44,4 +44,16 @@ public class TwoDimensionalArray {
             System.out.println();
         }
     }
+    // Searching Two Dimensional array
+    public void search2DArray(int value) {
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[0].length; col++) {
+                if (arr[row][col] == value) {
+                    System.out.println("Value is found at Row: " + row + " Col: " + col);
+                    return;
+                }
+            }
+        }
+        System.out.println("Value is not found!");
+    }
 }
