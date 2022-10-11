@@ -45,5 +45,8 @@ public class Main {
         System.out.println("Array after deleting ");
         System.out.println(Arrays.deepToString(twoDA.arr));
 
+        ArrayProject temp = new ArrayProject();
+        temp.userInput();
+
     }
 }
