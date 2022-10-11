@@ -26,5 +26,13 @@ public class TwoDimensionalArray {
             System.out.println("Invalid index for 2D array!");
         }
     }
-
+    // Accessing cell value from given array
+    public void accessCell(int row, int col) {
+        System.out.println("\nAccessing Row#" + row + ", Col#" + col);
+        try {
+            System.out.println("Cell value is: " + arr[row][col]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid index for 2D array");
+        }
+    }
 }

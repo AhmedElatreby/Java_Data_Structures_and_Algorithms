@@ -29,8 +29,11 @@ public class Main {
         System.out.println("Two Dimensional array");
         TwoDimensionalArray twoDA = new TwoDimensionalArray(3,3);
         twoDA.insertValueInTheArray(0,0,10);
-        twoDA.insertValueInTheArray(0,0,20);
+        twoDA.insertValueInTheArray(0,1,20);
         System.out.println(Arrays.deepToString(twoDA.arr));
 
+        System.out.println("Accessing Two Dimensional array");
+        twoDA.accessCell(0,0);
+        twoDA.accessCell(0,1);
     }
 }
