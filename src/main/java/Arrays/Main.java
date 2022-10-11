@@ -38,5 +38,12 @@ public class Main {
         System.out.println("Traverse Two Dimensional array");
         twoDA.travers2DArray();
         twoDA.search2DArray(10);
+
+        System.out.println("Array before deleting ");
+        System.out.println(Arrays.deepToString(twoDA.arr));
+        twoDA.deleting2DArray(0,0);
+        System.out.println("Array after deleting ");
+        System.out.println(Arrays.deepToString(twoDA.arr));
+
     }
 }
