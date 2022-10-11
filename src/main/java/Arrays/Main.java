@@ -35,5 +35,7 @@ public class Main {
         System.out.println("Accessing Two Dimensional array");
         twoDA.accessCell(0,0);
         twoDA.accessCell(0,1);
+        System.out.println("Traverse Two Dimensional array");
+        twoDA.travers2DArray();
     }
 }

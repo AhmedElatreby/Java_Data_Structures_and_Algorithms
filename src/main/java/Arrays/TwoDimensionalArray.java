@@ -35,4 +35,13 @@ public class TwoDimensionalArray {
             System.out.println("Invalid index for 2D array");
         }
     }
+    // Traversing Two Dimensional array
+    public void travers2DArray(){
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[0].length; col++) {
+                System.out.print(arr[row][col] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
