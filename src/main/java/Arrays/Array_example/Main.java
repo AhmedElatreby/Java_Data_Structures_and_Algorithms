@@ -13,5 +13,10 @@ public class Main {
         int[] sum = tSum.twoSum(array,9);
         System.out.println(Arrays.toString(sum));
 
+        System.out.println();
+        System.out.println("Find number in array");
+        FindNumber fnumber = new FindNumber();
+        fnumber.findNumber(array, 20);
+
     }
 }
