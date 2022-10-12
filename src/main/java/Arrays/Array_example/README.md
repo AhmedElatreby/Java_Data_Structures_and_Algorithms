@@ -19,3 +19,34 @@ public class MissingNumber {
 ```
 ![img.png](img.png)
 ***
+```
+Pairs / Two Sum
+Write program to find all pairs of integers whose sum is equal to a given number.
+```
+```java
+public class TwoSum {
+    public int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i, j};
+                }
+            }
+        }
+        throw new IllegalArgumentException("Not found!");
+    }
+}
+```
+```java
+public class Main {
+    public static void main(String[] args) {
+        TwoSum tSum = new TwoSum();
+        int[] array = {2,5,9,4,20,7};
+        int[] sum = tSum.twoSum(array,9);
+        System.out.println(Arrays.toString(sum));
+    }
+}
+```
+![img_1.png](img_1.png)
+***
+
