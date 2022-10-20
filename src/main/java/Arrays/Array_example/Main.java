@@ -23,5 +23,12 @@ public class Main {
         String pairs = mProduct.maxProduct(intArray1);
         System.out.println(pairs);
 
+        IsUnique isUniqueNumber = new IsUnique();
+        int[] numbers = {10, 20, 30, 40, 10, 50};
+        boolean unique =  isUniqueNumber.isUnique(numbers);
+        System.out.println((unique));
+
+
+
     }
 }

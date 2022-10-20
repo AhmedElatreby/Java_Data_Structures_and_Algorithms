@@ -101,6 +101,13 @@ public class Main {
 ```
 ![img_3.png](img_3.png)
 ***
+```
+Is Unique
+Write a program to check if an array is unique or not
+```
+```java
+
+```
 
 
 
