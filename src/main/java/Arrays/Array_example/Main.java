@@ -23,10 +23,23 @@ public class Main {
         String pairs = mProduct.maxProduct(intArray1);
         System.out.println(pairs);
 
+        System.out.println();
+        System.out.println("Find number is unique in array");
         IsUnique isUniqueNumber = new IsUnique();
         int[] numbers = {10, 20, 30, 40, 10, 50};
         boolean unique =  isUniqueNumber.isUnique(numbers);
         System.out.println((unique));
+
+        System.out.println();
+        System.out.println("Permutation");
+        Permutation permutation = new Permutation();
+        int[] array1 = {1, 2, 3, 4, 5, 6};
+        int[] array2 = {5, 6, 4, 3, 1, 2};
+        boolean permutationArray = permutation.permutation(array1,array2);
+        System.out.println(permutationArray);
+
+
+
 
 
 

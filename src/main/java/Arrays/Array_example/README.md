@@ -106,8 +106,66 @@ Is Unique
 Write a program to check if an array is unique or not
 ```
 ```java
-
+public class IsUnique {
+    public boolean isUnique(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i +1; j < array.length ; j++) {
+                if (array[i] == array[j]) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}
 ```
+```java
+        IsUnique isUniqueNumber = new IsUnique();
+        int[] numbers = {10, 20, 30, 40, 10, 50};
+        boolean unique =  isUniqueNumber.isUnique(numbers);
+        System.out.println((unique));
+```
+![img_4.png](img_4.png)
+***
+```
+Permutation
+Your are given two integer arrays. Write a program to check if they are permutation of each other.
+```
+```java
+public class Permutation {
+
+    public boolean permutation(int[] array1, int[] array2) {
+        if (array1.length != array2.length) {
+            return false;
+        }
+        int sum1 = 0;
+        int sum2 = 0;
+        int mul1 = 1;
+        int mul2 = 1;
+
+        for (int i = 0; i < array1.length; i++) {
+            sum1 += array1[i];
+            sum2 += array2[i];
+            mul1 *= array1[i];
+            mul2 *= array2[i];
+        }
+        if (sum1 == sum2 && mul1 == mul2) {
+            return true;
+        }
+        return false;
+    }
+}
+```
+```java
+      Permutation permutation = new Permutation();
+        int[] array1 = {1, 2, 3, 4, 5, 6};
+        int[] array2 = {5, 6, 4, 3, 1, 2};
+        boolean permutationArray = permutation.permutation(array1,array2);
+        System.out.println(permutationArray);
+```
+![img_5.png](img_5.png)
+***
+
 
 
 
