@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Java_Data_Structures_and_Algorithms" />
         <module name="Data_Structures" />
       </profile>
     </annotationProcessing>
