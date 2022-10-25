@@ -2,6 +2,8 @@ package Arrays.Array_example;
 
 import java.util.Arrays;
 
+
+
 public class Main {
     public static void main(String[] args) {
         MissingNumber mNumber = new MissingNumber();
@@ -38,6 +40,12 @@ public class Main {
         boolean permutationArray = permutation.permutation(array1,array2);
         System.out.println(permutationArray);
 
+        System.out.println();
+        System.out.println("Rotate Matrix");
+        RotateMatrix rm = new RotateMatrix();
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        rm.rotateMatrix(matrix);
+        System.out.println(Arrays.deepToString(matrix));
 
 
 
