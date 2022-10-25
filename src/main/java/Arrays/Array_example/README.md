@@ -165,6 +165,13 @@ public class Permutation {
 ```
 ![img_5.png](img_5.png)
 ***
+```
+Rotate Matrix
+Given an image represented by an N*N matrix write a method to rotate the image by 90 degrees.
+```
+```java
+
+```
 
 
 
