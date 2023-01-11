@@ -22,8 +22,8 @@ public class Main {
 
         MaxProductOfTwoNumbers mProduct = new MaxProductOfTwoNumbers();
         int[] intArray1 = {10, 20, 30, 40, 50, 60};
-        String pairs = mProduct.maxProduct(intArray1);
-        System.out.println(pairs);
+//        String pairs = mProduct.maxProduct(intArray1);
+//        System.out.println(pairs);
 
         System.out.println();
         System.out.println("Find number is unique in array");
