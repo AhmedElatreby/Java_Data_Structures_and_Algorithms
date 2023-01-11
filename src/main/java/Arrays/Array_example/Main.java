@@ -12,8 +12,8 @@ public class Main {
 
         TwoSum tSum = new TwoSum();
         int[] array = {2,5,9,4,20,7};
-        int[] sum = tSum.twoSum(array,9);
-        System.out.println(Arrays.toString(sum));
+//        int[] sum = tSum.twoSum(array,9);
+//        System.out.println(Arrays.toString(sum));
 
         System.out.println();
         System.out.println("Find number in array");

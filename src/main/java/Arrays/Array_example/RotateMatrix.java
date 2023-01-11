@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 63df46dabade0e1c95312141839d1ef5b101c06a
 package Arrays.Array_example;
 
 public class RotateMatrix {
