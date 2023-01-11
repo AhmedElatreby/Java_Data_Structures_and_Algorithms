@@ -37,8 +37,8 @@ public class Main {
         Permutation permutation = new Permutation();
         int[] array1 = {1, 2, 3, 4, 5, 6};
         int[] array2 = {5, 6, 4, 3, 1, 2};
-        boolean permutationArray = permutation.permutation(array1,array2);
-        System.out.println(permutationArray);
+//        boolean permutationArray = permutation.permutation(array1,array2);
+//        System.out.println(permutationArray);
 
         System.out.println();
         System.out.println("Rotate Matrix");
