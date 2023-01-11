@@ -29,8 +29,8 @@ public class Main {
         System.out.println("Find number is unique in array");
         IsUnique isUniqueNumber = new IsUnique();
         int[] numbers = {10, 20, 30, 40, 10, 50};
-        boolean unique =  isUniqueNumber.isUnique(numbers);
-        System.out.println((unique));
+//        boolean unique =  isUniqueNumber.isUnique(numbers);
+//        System.out.println((unique));
 
         System.out.println();
         System.out.println("Permutation");
