@@ -44,8 +44,8 @@ public class Main {
         System.out.println("Rotate Matrix");
         RotateMatrix rm = new RotateMatrix();
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        rm.rotateMatrix(matrix);
-        System.out.println(Arrays.deepToString(matrix));
+//        rm.rotateMatrix(matrix);
+//        System.out.println(Arrays.deepToString(matrix));
 
 
 
